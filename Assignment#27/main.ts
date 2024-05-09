@@ -9,6 +9,7 @@
 
 • Write three versions of this program, making sure each message is printed for the appropriate color alien.*/
 
+//if color is green
 let alien_color3 = "green";
 
 if (alien_color3 === "green") {
