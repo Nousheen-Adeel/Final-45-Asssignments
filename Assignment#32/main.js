@@ -7,7 +7,8 @@
 
 • Loop through the new_users list to see if each new username has already been used.
 If it has, print a message that the person will need to enter a new username.
-If a username has not been used, print a message saying that the username is available.*/
+If a username has not been used, print a message saying that the username is available.
+Make sure your comparison is case insensitive. If 'John' has been used, 'JOHN' should not be accepted.*/
 let current_users = ["NouSHeen", "Haya", "Maria", "Aiza", "mubeen"];
 let new_users = ["Anwer", "Adeel", "Nousheen", "Affan", "Ahmed", "Mubeen"];
 //We will use for each method
