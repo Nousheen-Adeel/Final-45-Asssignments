@@ -4,14 +4,16 @@
  Write a function called make_great() that modifies the array of magicians by adding the phrase the Great to each magician’s name.
  Call show_magicians() to see that the list has actually been modified.*/
 //making as array
-let magician_names = ["Harry Potter", "Alice", "John"];
 //making function
 function show_magicians(magicians) {
     magicians.forEach(names => console.log(names));
 }
 //making another function
 function make_great(magicians) {
-    return magicians.map(names => console.log("The Great " + names));
+    return magicians.map(names => ("The Great " + names));
 }
+let magician_names = ["Harry Potter", "Alice", "John"];
 //calling the function
-make_great(magician_names);
+let great_magicians = make_great(magician_names);
+//calling the function
+show_magicians(great_magicians);
