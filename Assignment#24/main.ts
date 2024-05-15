@@ -72,7 +72,7 @@ console.log("Or Test:" , 10 > 15 || 10 < 15) //false
 
 let names = ["Nousheen", "Maria", "Aiza"];
 
-console.log("In Array Test:", names.includes("Aiza")) //true
+console.log("In Array Test:", names.includes("Nousheen")) //true
 
 console.log("In Array Test:", names.includes("Hira")) //false
 

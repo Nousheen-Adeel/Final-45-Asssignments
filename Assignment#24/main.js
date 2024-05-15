@@ -1,4 +1,5 @@
 "use strict";
+//Assignment#24
 /*More Conditional Tests: You don’t have to limit the number of tests you create to 10. If you want to try more comparisons, write more tests.
  Have at least one True and one False result for each of the following:
 • Tests for equality and inequality with strings
@@ -40,8 +41,8 @@ console.log("And Test:", 10 > 15 && 10 < 15); //false
 console.log("Or Test:", 10 > 5 || 10 < 15); //true
 console.log("Or Test:", 10 > 15 || 10 < 15); //false
 // Test whether an item is in a array
-let names = ["Nousheen", "Maria", "Aiza"];
-console.log("In Array Test:", names.includes("Aiza")); //true
+let names = [1, "Maria", "Aiza"];
+console.log("In Array Test:", names.includes(1)); //true
 console.log("In Array Test:", names.includes("Hira")); //false
 // Test whether an item is not in a array
 console.log("Not In Array Test:", !names.includes("Hira")); //true

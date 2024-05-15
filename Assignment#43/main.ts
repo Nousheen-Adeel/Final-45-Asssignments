@@ -21,12 +21,19 @@ function show_magicians(magicians: string[]){
 
 function make_great(magicians: string[]){
 
-   return magicians.map(names=>
-        console.log("The Great " + names)
+   return magicians.map(names=> ("The Great " + names)
     );
 
 }
 
-//calling the function
+let copy_of_magician_names = magician_names.slice()
 
-make_great(magician_names);
+let copy_of_great_magicians = make_great(copy_of_magician_names);
+
+//original array
+
+show_magicians(magician_names);
+
+//new array
+
+show_magicians(copy_of_great_magicians);
